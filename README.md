@@ -107,3 +107,13 @@ Working on this project reinforced the following concepts:
 - [TypeScript Handbook](https://www.typescriptlang.org/docs/)
 - [Node.js Docs](https://nodejs.org/en/docs)
 - [dotenv npm package](https://www.npmjs.com/package/dotenv)
+
+## Contribution Guidelines
+
+This is a personal learning project, but contributions are welcome!
+
+1. Fork the repository
+2. Create a feature branch: git checkout -b feat/your-feature
+3. Commit your changes: git commit -m "feat: add your feature"
+4. Push to the branch: git push origin feat/your-feature
+5. Open a Pull Request
