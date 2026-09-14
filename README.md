@@ -98,3 +98,12 @@ Working on this project reinforced the following concepts:
 - **Docker Compose** â€“ multi-service configuration, networking, volume mounting
 - **Environment configuration** â€“ .env files, secrets management, and dotenv library usage
 - **Manual API testing** â€“ using Postman / curl to verify endpoint behaviour
+
+## Resources & References
+
+- [Redis Official Documentation](https://redis.io/documentation)
+- [ioredis (Node.js Redis client)](https://github.com/luin/ioredis)
+- [Docker Compose Docs](https://docs.docker.com/compose/)
+- [TypeScript Handbook](https://www.typescriptlang.org/docs/)
+- [Node.js Docs](https://nodejs.org/en/docs)
+- [dotenv npm package](https://www.npmjs.com/package/dotenv)
