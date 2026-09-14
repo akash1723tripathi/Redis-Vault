@@ -86,3 +86,15 @@ curl -X DELETE http://localhost:3000/delete/username
 | REDIS_URL   | Redis connection string        | edis://localhost:6379        |
 | PORT        | HTTP server port               | 3000                          |
 | NODE_ENV    | Node environment               | development                   |
+
+## Learning Outcomes
+
+Working on this project reinforced the following concepts:
+
+- **Redis fundamentals** â€“ strings, hashes, lists, sets, key expiry (TTL)
+- **Connection lifecycle** â€“ creating, reusing, and gracefully closing Redis clients in Node.js
+- **REST API design** â€“ structuring CRUD endpoints with proper HTTP methods and status codes
+- **TypeScript** â€“ interfaces, generics, strict typing in an async/await context
+- **Docker Compose** â€“ multi-service configuration, networking, volume mounting
+- **Environment configuration** â€“ .env files, secrets management, and dotenv library usage
+- **Manual API testing** â€“ using Postman / curl to verify endpoint behaviour
