@@ -63,3 +63,18 @@ docker-compose up -d
 # 5. Run the development server
 npm run dev
 ```
+
+## Usage Examples
+
+```bash
+# Set a key-value pair
+curl -X POST http://localhost:3000/set \
+  -H "Content-Type: application/json" \
+  -d '{"key": "username", "value": "akash"}'
+
+# Get a value by key
+curl http://localhost:3000/get/username
+
+# Delete a key
+curl -X DELETE http://localhost:3000/delete/username
+```
