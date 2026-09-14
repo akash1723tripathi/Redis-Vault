@@ -36,3 +36,30 @@ The project covers Redis fundamentals, REST API design, Docker orchestration, an
 â”œâ”€â”€ package.json          # Node.js project manifest
 â””â”€â”€ postman-test.txt      # Postman API test notes
 ```
+
+## Setup & Installation
+
+### Prerequisites
+- Node.js >= 18
+- Docker & Docker Compose
+
+### Steps
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/akash1723tripathi/Redis-Vault.git
+cd Redis-Vault
+
+# 2. Install dependencies
+npm install
+
+# 3. Configure environment variables
+cp .env.example .env
+# Edit .env and set REDIS_URL
+
+# 4. Start Redis via Docker
+docker-compose up -d
+
+# 5. Run the development server
+npm run dev
+```
