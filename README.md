@@ -117,3 +117,7 @@ This is a personal learning project, but contributions are welcome!
 3. Commit your changes: git commit -m "feat: add your feature"
 4. Push to the branch: git push origin feat/your-feature
 5. Open a Pull Request
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
