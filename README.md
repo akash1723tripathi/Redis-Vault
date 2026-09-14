@@ -78,3 +78,11 @@ curl http://localhost:3000/get/username
 # Delete a key
 curl -X DELETE http://localhost:3000/delete/username
 ```
+
+## Environment Variables
+
+| Variable      | Description                    | Default                         |
+|---------------|--------------------------------|---------------------------------|
+| REDIS_URL   | Redis connection string        | edis://localhost:6379        |
+| PORT        | HTTP server port               | 3000                          |
+| NODE_ENV    | Node environment               | development                   |
